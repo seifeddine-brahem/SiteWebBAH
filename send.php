@@ -1,4 +1,5 @@
 <?php
+
 require_once 'vendor/autoload.php';
 if(isset($_POST['submit'])){
     $phoneNumber = $_POST['phone'];
